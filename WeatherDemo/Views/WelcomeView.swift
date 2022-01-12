@@ -16,7 +16,8 @@ struct WelcomeView: View {
         VStack {
             VStack(spacing: 20) {
                 Text("Welcome to the Weather App")
-                    .bold().font(.title)
+                    .bold()
+                    .font(.title)
                 
                 Text("Please share your current location to get the weather in your area")
                     .padding()
@@ -24,6 +25,7 @@ struct WelcomeView: View {
             .multilineTextAlignment(.center)
             .padding()
             
+            // LocationButton from CoreLocationUI framework imported above, allows us to requestionLocation
             LocationButton(.shareCurrentLocation) {
                 locationManager.requestLocation()
             }
@@ -32,8 +34,7 @@ struct WelcomeView: View {
             .foregroundColor(.white)
             
         }
-        .frame(maxWidth: .infinity,
-               maxHeight: .infinity)
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
 }
 

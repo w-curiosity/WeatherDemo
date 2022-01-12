@@ -14,12 +14,11 @@ struct ContentView: View {
     var weatherManager = WeatherManager()
     @State var weather: ResponseBody?
     
-    
     var body: some View {
         VStack {
             
             if let location = locationManager.location {
-                 Text("Your coordinates are:\(location.longitude),\(location.latitude)")
+                 // Text("Your coordinates are:\(location.longitude),\(location.latitude)")
                 if let weather = weather {
                     //Text("Weather data fetched!")
                     WeatherView(weather: weather)
@@ -45,8 +44,6 @@ struct ContentView: View {
         }
         .background(Color(hue: 0.614, saturation: 0.798, brightness: 0.31))
         .preferredColorScheme(.dark)
-        
-        
         
     }
 }
