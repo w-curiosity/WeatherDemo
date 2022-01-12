@@ -14,6 +14,7 @@
 		319F0EC9278E150E00C179F3 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319F0EC8278E150E00C179F3 /* LocationManager.swift */; };
 		319F0ECC278E18D100C179F3 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319F0ECB278E18D100C179F3 /* WelcomeView.swift */; };
 		319F0ECE278E395700C179F3 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319F0ECD278E395700C179F3 /* LoadingView.swift */; };
+		319F0ED0278E58B200C179F3 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319F0ECF278E58B100C179F3 /* WeatherManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		319F0EC8278E150E00C179F3 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		319F0ECB278E18D100C179F3 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		319F0ECD278E395700C179F3 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		319F0ECF278E58B100C179F3 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				319F0EC8278E150E00C179F3 /* LocationManager.swift */,
+				319F0ECF278E58B100C179F3 /* WeatherManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				319F0ED0278E58B200C179F3 /* WeatherManager.swift in Sources */,
 				319F0EBC278E117A00C179F3 /* ContentView.swift in Sources */,
 				319F0EBA278E117A00C179F3 /* WeatherDemoApp.swift in Sources */,
 				319F0EC9278E150E00C179F3 /* LocationManager.swift in Sources */,
